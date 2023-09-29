@@ -3,3 +3,9 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.container {
+    display : grid;
+    justify-content: center;
+    margin : 50px;
+    box-shadow: 5px 5px 5px 5px #744d4d;
+}
