@@ -3,13 +3,31 @@
     <head>
         <title>Caffe Z</title>
         <link href="style.css" rel="stylesheet" />
-        <script src="app.js"></script>
+        <!-- <script src="app.js"></script> -->
         
     </head>
     <body>
         <div class="container">
             <h1>Welcome to our Caffe Z</h1>
         </div>
+        <div id="dom"> 
+        </div>
+
+        <form>
+            <label>Username:</label><br>
+            <input id="user" type="text"  name="username"><br>
+            <label>Age:</label><br>
+            <input id="age" type="text"  name="age"><br>
+            <label>Drink Type</label><br>
+            <input id="hot" type="checkbox"  name="hot">Hot 
+            <input id="cold" type="checkbox"  name="cold">Cold<br>
+            <label>Drink Name:</label><br>
+            <input id="drinkname"  type="text"  name="drinkName"><br>
+            <input type="submit" onclick = "myFunction()"><br>
+
+
+        </form>
+        <p id="demo"></p>
         <div class="coffee">
             <span class="steam"></span>
                 <div class="coffee-bg-lid"></div>
@@ -19,6 +37,9 @@
                 <div class="coffee-cup"></div>
                 <div class="coffee-shadow"></div>
         </div>
+       
+        <!-- <script src="dom.js"></script> -->
+        <script src="event.js"></script>
 
        
     </body>
