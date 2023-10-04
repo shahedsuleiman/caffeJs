@@ -10,24 +10,29 @@
         <div class="container">
             <h1>Welcome to our Caffe Z</h1>
         </div>
-        <div id="dom"> 
-        </div>
+
 
         <form>
             <label>Username:</label><br>
             <input id="user" type="text"  name="username"><br>
             <label>Age:</label><br>
             <input id="age" type="text"  name="age"><br>
+            <label>Gender:</label><br>
+            <select id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select><br>
             <label>Drink Type</label><br>
-            <input id="hot" type="checkbox"  name="hot">Hot 
-            <input id="cold" type="checkbox"  name="cold">Cold<br>
+            <input id="drinkType" type="checkbox"  value ="hot" name="hot">Hot 
+            <input id="drinkType" type="checkbox"  value ="cold" name="cold">Cold<br>
             <label>Drink Name:</label><br>
             <input id="drinkname"  type="text"  name="drinkName"><br>
-            <input type="submit" onclick = "myFunction()"><br>
+            <button id="submit">Submit</button>
 
 
         </form>
-        <p id="demo"></p>
+        <div id="dom"> 
+        </div>
         <div class="coffee">
             <span class="steam"></span>
                 <div class="coffee-bg-lid"></div>
